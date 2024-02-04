@@ -67,3 +67,4 @@ let aNumber =33;
 let stringNumber = String(aNumber);
 console.log(typeof stringNumber);//string
 console.log(aNumber);//33
+//Operations <= ,==,>= != strict check === precedence
