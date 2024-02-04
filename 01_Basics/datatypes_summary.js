@@ -34,3 +34,40 @@ myFun()
 console.log(typeof myFun);
 // type of function is object function
 
+
+//************************************************************************************* */
+
+// Let's Have dive to stack and heap memory
+// stack memory will be used by primitive types 
+// heap memory will be used by non-primitive
+
+// stack gives a copy of its memory even though if we change the values it will reflect in the copy of the names
+
+// where as heap it gives reference so if we change any value in original values it will reflect
+
+console.log("**************Let's check call by value with an example***************")
+let checkReference = "HeapOrStack";
+let isItHeapOrStack = checkReference;
+console.log("This is before modify the value")
+console.log(isItHeapOrStack);
+console.log(checkReference);
+console.log("After modifying the value")
+isItHeapOrStack="Heap";
+console.log(isItHeapOrStack);
+console.log(checkReference);
+
+console.log("****************Let's check call by Refernce with an example ************")
+let upi = {
+    upiMail: "user@google.com",
+    upiNumber:"89374734@ybl"
+    
+}
+let checkUpi = upi;
+checkUpi.upiMail = "supriya@google.com";
+
+console.log(checkUpi);
+console.log(upi);
+
+
+
+
