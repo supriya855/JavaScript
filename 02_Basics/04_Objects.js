@@ -49,3 +49,20 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('name'));
+
+const course = {
+    coursename:"javascript",
+    price:"555",
+    courseInstructor:"supriya"
+}
+console.log(courseInstructor);
+const {courseInstructor:instructor} = course;//destructring the objects
+console.log(instructor);
+
+//*********API******************
+//JSON
+// {
+//     "name":"supriya",
+//     "city":"Hyd",
+//     "favPlace":"Home"
+// }
