@@ -16,11 +16,12 @@ let myCreatedDateIs = new Date(2024,0,2,5,30);
 console.log(myCreatedDateIs.toLocaleString());//1/2/2024, 5:30:00 AM
 
 let myTimeStamp = Date.now();
-console.log(myTimeStamp);
-console.log(myCreatedDate.getTime());
-console.log(Math.floor(Date.now()/1000));
+console.log(myTimeStamp);//1707545536443
+console.log(myCreatedDate.getTime());//1704067200000
+console.log(Math.floor(Date.now()/1000));//1707545536
 
 let newMyTime = new Date(2024,2,14);
-console.log(newMyTime.getDay());
-console.log(newMyTime.getMonth());
+console.log(newMyTime.getDay());//4
+console.log(newMyTime.getMonth());//2
 newMyTime.toLocaleString('default', {'weekday':"long"});
+console.log(newMyTime);//2024-03-14T00:00:00.000Z
