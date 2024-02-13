@@ -12,6 +12,8 @@ else if(temperature>41) console.log("temp",temperature);
 //<,>,<=,>=,==,===,!=,!==
 //Nullish coalsicing operator(??):null undefined
 // this is used handle the null undefined to check from db or firebase is it returning if not else return null 
+// if are using any third party one's if we are getting null value from there function
+// so we don't want that null we are return some other function or value
 let va11;
 val1 =5??10;
 console.log(val1);
