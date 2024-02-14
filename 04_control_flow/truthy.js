@@ -23,4 +23,15 @@ const emptyObj ={}
 if(Object.keys(emptyObj).length==0)//bject.keys(emptyObj) this returns an empty array from that we are taking length
 console.log("Empty obj");
 else
-console.log('Not an empty obj')
+console.log('Not an empty obj');
+
+let username = {};
+if(username){
+    console.log("Is it True{}");
+}
+else{
+    console.log("It's not true {}");
+}
+if({}){
+    console.log("Is true");
+}

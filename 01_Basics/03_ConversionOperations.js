@@ -49,6 +49,7 @@ console.log(valueNumber5);
 
 //  "33" --> 33
 //  "33abc"--> NaN
+//"supriya"--> NaN
 //  true=1 and false =0
 // undefined --> NaN
 // null  --> 0
