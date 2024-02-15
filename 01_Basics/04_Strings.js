@@ -17,7 +17,12 @@ console.log(myString.toUpperCase());
 console.log(myString.charAt(2));
 console.log(myString.indexOf('r'));
 console.log(myString.substring(0,4));
-console.log(myString.slice(-6,4));
+console.log(myString.slice(-6,4));//upr
+// 0 1 2 3 4 5 6
+// s u p r i y a
+// -7-6-5-4-3-3-1
+    
+
 
 const opString= "    hello    world    ";
 console.log(opString);

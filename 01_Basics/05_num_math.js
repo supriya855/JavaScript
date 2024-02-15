@@ -4,7 +4,7 @@ console.log(score);
 const myNumber = new Number(100);
 console.log(myNumber.toString());
 console.log(myNumber.toString().length);
-console.log(myNumber.toFixed(2));
+console.log(myNumber.toFixed(2));//how decimal points after number --> 100.00
 
 const otherNumber=12.894763;
 console.log(otherNumber.toPrecision(3));

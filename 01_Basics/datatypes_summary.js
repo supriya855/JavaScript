@@ -10,7 +10,7 @@ const id = Symbol('123');
 const anotherid = Symbol('123');
 console.log(id==anotherid);
 
-const BigNumber = 764794774983980289088347;
+const BigNumber = 764794774983980289088347;//948789348n// last we need to add to make it as bigInt
 // console.log(BigNumber);
 // console.log(typeof BigNumber);
 // Here give some BIG NUMBER

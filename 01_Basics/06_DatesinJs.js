@@ -25,3 +25,6 @@ console.log(newMyTime.getDay());//4
 console.log(newMyTime.getMonth());//2
 newMyTime.toLocaleString('default', {'weekday':"long"});
 console.log(newMyTime);//2024-03-14T00:00:00.000Z
+
+let manualDate = new Date(2024,2,2);
+ console.log(manualDate.getDay());
